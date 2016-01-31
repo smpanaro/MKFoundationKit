@@ -1,0 +1,10 @@
+framework module MKFoundationKit {
+
+    export *
+
+    explicit module MKMacro_Version {
+        header "MKMacro_Version.h"
+        link "MKMacro_Version"
+        export *
+    }
+}

@@ -306,6 +306,7 @@
 		AA985E551C5EB90800B563EA /* MKFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA985E571C5EB90800B563EA /* MKFoundationKit-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKFoundationKit-iOS.h"; sourceTree = "<group>"; };
 		AA985E591C5EB90800B563EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA985EB01C5EBF2400B563EA /* MKFoundationKit.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = MKFoundationKit.modulemap; sourceTree = "<group>"; };
 		D25EF4BC88A44F43A87962BE /* Pods-MKFoundationKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKFoundationKitTests.xcconfig"; path = "Pods/Pods-MKFoundationKitTests.xcconfig"; sourceTree = "<group>"; };
 		D60CA56430804A97937C65AA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		F3D3378482DE422E9C347981 /* libPods-MKFoundationKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKFoundationKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -705,6 +706,7 @@
 			children = (
 				AA985E571C5EB90800B563EA /* MKFoundationKit-iOS.h */,
 				AA985E591C5EB90800B563EA /* Info.plist */,
+				AA985EB01C5EBF2400B563EA /* MKFoundationKit.modulemap */,
 			);
 			path = "MKFoundationKit-iOS";
 			sourceTree = "<group>";
@@ -1262,6 +1264,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/MKFoundationKit-iOS/MKFoundationKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.michalkonturek.MKFoundationKit;
 				PRODUCT_NAME = MKFoundationKit;
@@ -1291,6 +1294,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/MKFoundationKit-iOS/MKFoundationKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.michalkonturek.MKFoundationKit;
 				PRODUCT_NAME = MKFoundationKit;
