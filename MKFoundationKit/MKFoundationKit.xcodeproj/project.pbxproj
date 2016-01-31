@@ -82,6 +82,84 @@
 		90AD927F185164E400C2CF19 /* NSString+MK_Validation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AD9261185164E400C2CF19 /* NSString+MK_Validation_Tests.m */; };
 		90E55C5418B795C100A945F3 /* NSObject+MK_Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E55C5318B795C100A945F3 /* NSObject+MK_Misc.m */; };
 		90E55C5618B7965300A945F3 /* NSObject+MK_Misc_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E55C5518B7965300A945F3 /* NSObject+MK_Misc_Tests.m */; };
+		AA985E5D1C5EB93000B563EA /* NSArray+MK_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB44189D7D5A00F1B338 /* NSArray+MK_Block.m */; };
+		AA985E5E1C5EB93000B563EA /* NSArray+MK_Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB46189D7D5A00F1B338 /* NSArray+MK_Misc.m */; };
+		AA985E5F1C5EB93000B563EA /* NSMutableArray+MK_Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB48189D7D5A00F1B338 /* NSMutableArray+MK_Misc.m */; };
+		AA985E601C5EB93000B563EA /* NSMutableArray+MK_Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB4A189D7D5A00F1B338 /* NSMutableArray+MK_Queue.m */; };
+		AA985E611C5EB93000B563EA /* NSMutableArray+MK_Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB4C189D7D5A00F1B338 /* NSMutableArray+MK_Stack.m */; };
+		AA985E621C5EB93000B563EA /* NSBundle+MK_Version.m in Sources */ = {isa = PBXBuildFile; fileRef = 909F75CD18CA90C600670367 /* NSBundle+MK_Version.m */; };
+		AA985E631C5EB93000B563EA /* NSData+MK_Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB50189D7D5A00F1B338 /* NSData+MK_Base64.m */; };
+		AA985E641C5EB93000B563EA /* NSDate+MK_Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB54189D7D5A00F1B338 /* NSDate+MK_Comparison.m */; };
+		AA985E651C5EB93000B563EA /* NSDate+MK_Components.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB56189D7D5A00F1B338 /* NSDate+MK_Components.m */; };
+		AA985E661C5EB93000B563EA /* NSDate+MK_Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB58189D7D5A00F1B338 /* NSDate+MK_Creation.m */; };
+		AA985E671C5EB93000B563EA /* NSDate+MK_Formatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB5A189D7D5A00F1B338 /* NSDate+MK_Formatting.m */; };
+		AA985E681C5EB93000B563EA /* NSDate+MK_Manipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB5C189D7D5A00F1B338 /* NSDate+MK_Manipulation.m */; };
+		AA985E691C5EB93000B563EA /* NSDictionary+MK_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB62189D7D5A00F1B338 /* NSDictionary+MK_Block.m */; };
+		AA985E6A1C5EB93000B563EA /* NSDictionary+MK_Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB64189D7D5A00F1B338 /* NSDictionary+MK_Misc.m */; };
+		AA985E6B1C5EB93000B563EA /* NSMutableDictionary+MK_Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB66189D7D5A00F1B338 /* NSMutableDictionary+MK_Misc.m */; };
+		AA985E6C1C5EB93000B563EA /* NSNumber+MK_Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB6A189D7D5A00F1B338 /* NSNumber+MK_Comparison.m */; };
+		AA985E6D1C5EB93000B563EA /* NSNumber+MK_Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB6C189D7D5A00F1B338 /* NSNumber+MK_Creation.m */; };
+		AA985E6E1C5EB93000B563EA /* NSNumber+MK_Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB6E189D7D5A00F1B338 /* NSNumber+MK_Fraction.m */; };
+		AA985E6F1C5EB93000B563EA /* NSNumber+MK_Manipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB70189D7D5A00F1B338 /* NSNumber+MK_Manipulation.m */; };
+		AA985E701C5EB93000B563EA /* NSNumber+MK_Negative.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB72189D7D5A00F1B338 /* NSNumber+MK_Negative.m */; };
+		AA985E711C5EB93000B563EA /* NSNumber+MK_Precision.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB74189D7D5A00F1B338 /* NSNumber+MK_Precision.m */; };
+		AA985E721C5EB93000B563EA /* NSObject+MK_AutoDescribe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB78189D7D5A00F1B338 /* NSObject+MK_AutoDescribe.m */; };
+		AA985E731C5EB93000B563EA /* NSObject+MK_Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E55C5318B795C100A945F3 /* NSObject+MK_Misc.m */; };
+		AA985E741C5EB93000B563EA /* NSSet+MK_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB7C189D7D5A00F1B338 /* NSSet+MK_Block.m */; };
+		AA985E751C5EB93000B563EA /* NSString+MK_Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB80189D7D5A00F1B338 /* NSString+MK_Base64.m */; };
+		AA985E761C5EB93000B563EA /* NSString+MK_Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB82189D7D5A00F1B338 /* NSString+MK_Conversion.m */; };
+		AA985E771C5EB93000B563EA /* NSString+MK_Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB84189D7D5A00F1B338 /* NSString+MK_Empty.m */; };
+		AA985E781C5EB93000B563EA /* NSString+MK_Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB86189D7D5A00F1B338 /* NSString+MK_Misc.m */; };
+		AA985E791C5EB93000B563EA /* NSString+MK_UTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB88189D7D5A00F1B338 /* NSString+MK_UTF.m */; };
+		AA985E7A1C5EB93000B563EA /* NSString+MK_UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB8A189D7D5A00F1B338 /* NSString+MK_UUID.m */; };
+		AA985E7B1C5EB93000B563EA /* NSString+MK_Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049CB8C189D7D5A00F1B338 /* NSString+MK_Validation.m */; };
+		AA985E7C1C5EB9A400B563EA /* MKFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB40189D7D5A00F1B338 /* MKFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E801C5EBDC900B563EA /* NSArray+MK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB42189D7D5A00F1B338 /* NSArray+MK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E811C5EBDC900B563EA /* NSBundle+MK.h in Headers */ = {isa = PBXBuildFile; fileRef = 909F75D218CA92F000670367 /* NSBundle+MK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E821C5EBDC900B563EA /* NSData+MK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB4E189D7D5A00F1B338 /* NSData+MK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E831C5EBDC900B563EA /* NSDate+MK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB52189D7D5A00F1B338 /* NSDate+MK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E841C5EBDC900B563EA /* NSDictionary+MK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB60189D7D5A00F1B338 /* NSDictionary+MK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E851C5EBDC900B563EA /* NSNumber+MK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB68189D7D5A00F1B338 /* NSNumber+MK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E861C5EBDC900B563EA /* NSObject+MK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB76189D7D5A00F1B338 /* NSObject+MK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E871C5EBDC900B563EA /* NSSet+MK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB7A189D7D5A00F1B338 /* NSSet+MK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E881C5EBDC900B563EA /* NSString+MK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB7E189D7D5A00F1B338 /* NSString+MK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E891C5EBDD200B563EA /* MKMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB3A189D7D5A00F1B338 /* MKMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E8C1C5EBE2600B563EA /* MKMacro_Geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB3B189D7D5A00F1B338 /* MKMacro_Geometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E8D1C5EBE2600B563EA /* MKMacro_Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB3C189D7D5A00F1B338 /* MKMacro_Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E8E1C5EBE2600B563EA /* MKMacro_Method.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB3D189D7D5A00F1B338 /* MKMacro_Method.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E8F1C5EBE2600B563EA /* MKMacro_Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB3E189D7D5A00F1B338 /* MKMacro_Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E901C5EBE2600B563EA /* MKMacro_Version.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB3F189D7D5A00F1B338 /* MKMacro_Version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E911C5EBE2600B563EA /* NSArray+MK_Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB43189D7D5A00F1B338 /* NSArray+MK_Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E921C5EBE2600B563EA /* NSArray+MK_Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB45189D7D5A00F1B338 /* NSArray+MK_Misc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E931C5EBE2600B563EA /* NSMutableArray+MK_Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB47189D7D5A00F1B338 /* NSMutableArray+MK_Misc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E941C5EBE2600B563EA /* NSMutableArray+MK_Queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB49189D7D5A00F1B338 /* NSMutableArray+MK_Queue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E951C5EBE2700B563EA /* NSMutableArray+MK_Stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB4B189D7D5A00F1B338 /* NSMutableArray+MK_Stack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E961C5EBE2700B563EA /* NSBundle+MK_Version.h in Headers */ = {isa = PBXBuildFile; fileRef = 909F75CC18CA90C600670367 /* NSBundle+MK_Version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E971C5EBE2700B563EA /* NSData+MK_Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB4F189D7D5A00F1B338 /* NSData+MK_Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E981C5EBE2700B563EA /* NSDate+MK_Comparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB53189D7D5A00F1B338 /* NSDate+MK_Comparison.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E991C5EBE2700B563EA /* NSDate+MK_Components.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB55189D7D5A00F1B338 /* NSDate+MK_Components.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E9A1C5EBE2700B563EA /* NSDate+MK_Creation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB57189D7D5A00F1B338 /* NSDate+MK_Creation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E9B1C5EBE2700B563EA /* NSDate+MK_Formatting.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB59189D7D5A00F1B338 /* NSDate+MK_Formatting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E9C1C5EBE2700B563EA /* NSDate+MK_Manipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB5B189D7D5A00F1B338 /* NSDate+MK_Manipulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E9D1C5EBE2700B563EA /* NSDictionary+MK_Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB61189D7D5A00F1B338 /* NSDictionary+MK_Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E9E1C5EBE2700B563EA /* NSDictionary+MK_Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB63189D7D5A00F1B338 /* NSDictionary+MK_Misc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985E9F1C5EBE2700B563EA /* NSMutableDictionary+MK_Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB65189D7D5A00F1B338 /* NSMutableDictionary+MK_Misc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EA01C5EBE2700B563EA /* NSNumber+MK_Comparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB69189D7D5A00F1B338 /* NSNumber+MK_Comparison.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EA11C5EBE2800B563EA /* NSNumber+MK_Creation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB6B189D7D5A00F1B338 /* NSNumber+MK_Creation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EA21C5EBE2800B563EA /* NSNumber+MK_Fraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB6D189D7D5A00F1B338 /* NSNumber+MK_Fraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EA31C5EBE2800B563EA /* NSNumber+MK_Manipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB6F189D7D5A00F1B338 /* NSNumber+MK_Manipulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EA41C5EBE2800B563EA /* NSNumber+MK_Negative.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB71189D7D5A00F1B338 /* NSNumber+MK_Negative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EA51C5EBE2800B563EA /* NSNumber+MK_Precision.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB73189D7D5A00F1B338 /* NSNumber+MK_Precision.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EA61C5EBE2800B563EA /* NSObject+MK_AutoDescribe.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB77189D7D5A00F1B338 /* NSObject+MK_AutoDescribe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EA71C5EBE2800B563EA /* NSObject+MK_Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E55C5218B795C100A945F3 /* NSObject+MK_Misc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EA81C5EBE2800B563EA /* NSSet+MK_Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB7B189D7D5A00F1B338 /* NSSet+MK_Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EA91C5EBE2900B563EA /* NSString+MK_Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB7F189D7D5A00F1B338 /* NSString+MK_Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EAA1C5EBE2900B563EA /* NSString+MK_Conversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB81189D7D5A00F1B338 /* NSString+MK_Conversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EAB1C5EBE2900B563EA /* NSString+MK_Empty.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB83189D7D5A00F1B338 /* NSString+MK_Empty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EAC1C5EBE2900B563EA /* NSString+MK_Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB85189D7D5A00F1B338 /* NSString+MK_Misc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EAD1C5EBE2900B563EA /* NSString+MK_UTF.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB87189D7D5A00F1B338 /* NSString+MK_UTF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EAE1C5EBE2900B563EA /* NSString+MK_UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB89189D7D5A00F1B338 /* NSString+MK_UUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EAF1C5EBE2A00B563EA /* NSString+MK_Validation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9049CB8B189D7D5A00F1B338 /* NSString+MK_Validation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7FDD4F6AA054635BB0E765E /* libPods-MKFoundationKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3378482DE422E9C347981 /* libPods-MKFoundationKitTests.a */; };
 /* End PBXBuildFile section */
 
@@ -225,6 +303,9 @@
 		90E55C5318B795C100A945F3 /* NSObject+MK_Misc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MK_Misc.m"; sourceTree = "<group>"; };
 		90E55C5518B7965300A945F3 /* NSObject+MK_Misc_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MK_Misc_Tests.m"; sourceTree = "<group>"; };
 		A2AFA71716B244859CD9A336 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA985E551C5EB90800B563EA /* MKFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA985E571C5EB90800B563EA /* MKFoundationKit-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKFoundationKit-iOS.h"; sourceTree = "<group>"; };
+		AA985E591C5EB90800B563EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D25EF4BC88A44F43A87962BE /* Pods-MKFoundationKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKFoundationKitTests.xcconfig"; path = "Pods/Pods-MKFoundationKitTests.xcconfig"; sourceTree = "<group>"; };
 		D60CA56430804A97937C65AA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		F3D3378482DE422E9C347981 /* libPods-MKFoundationKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKFoundationKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,6 +330,13 @@
 				907CD00F184CE14A0070E0AC /* UIKit.framework in Frameworks */,
 				907CD00E184CE14A0070E0AC /* Foundation.framework in Frameworks */,
 				F7FDD4F6AA054635BB0E765E /* libPods-MKFoundationKitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA985E511C5EB90800B563EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +513,7 @@
 			children = (
 				907CCFF9184CE14A0070E0AC /* MKFoundationKit */,
 				907CD012184CE14A0070E0AC /* MKFoundationKitTests */,
+				AA985E561C5EB90800B563EA /* MKFoundationKit-iOS */,
 				907CCFF2184CE14A0070E0AC /* Frameworks */,
 				907CCFF1184CE14A0070E0AC /* Products */,
 				D60CA56430804A97937C65AA /* Pods.xcconfig */,
@@ -437,6 +526,7 @@
 			children = (
 				907CCFF0184CE14A0070E0AC /* MKFoundationKit.app */,
 				907CD00B184CE14A0070E0AC /* MKFoundationKitTests.xctest */,
+				AA985E551C5EB90800B563EA /* MKFoundationKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -610,7 +700,73 @@
 			path = NSString;
 			sourceTree = "<group>";
 		};
+		AA985E561C5EB90800B563EA /* MKFoundationKit-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA985E571C5EB90800B563EA /* MKFoundationKit-iOS.h */,
+				AA985E591C5EB90800B563EA /* Info.plist */,
+			);
+			path = "MKFoundationKit-iOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA985E521C5EB90800B563EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA985E7C1C5EB9A400B563EA /* MKFoundationKit.h in Headers */,
+				AA985E891C5EBDD200B563EA /* MKMacro.h in Headers */,
+				AA985E801C5EBDC900B563EA /* NSArray+MK.h in Headers */,
+				AA985E811C5EBDC900B563EA /* NSBundle+MK.h in Headers */,
+				AA985E821C5EBDC900B563EA /* NSData+MK.h in Headers */,
+				AA985E831C5EBDC900B563EA /* NSDate+MK.h in Headers */,
+				AA985E841C5EBDC900B563EA /* NSDictionary+MK.h in Headers */,
+				AA985E851C5EBDC900B563EA /* NSNumber+MK.h in Headers */,
+				AA985E861C5EBDC900B563EA /* NSObject+MK.h in Headers */,
+				AA985E871C5EBDC900B563EA /* NSSet+MK.h in Headers */,
+				AA985E881C5EBDC900B563EA /* NSString+MK.h in Headers */,
+				AA985E8C1C5EBE2600B563EA /* MKMacro_Geometry.h in Headers */,
+				AA985E8D1C5EBE2600B563EA /* MKMacro_Log.h in Headers */,
+				AA985E8E1C5EBE2600B563EA /* MKMacro_Method.h in Headers */,
+				AA985E8F1C5EBE2600B563EA /* MKMacro_Test.h in Headers */,
+				AA985E901C5EBE2600B563EA /* MKMacro_Version.h in Headers */,
+				AA985E911C5EBE2600B563EA /* NSArray+MK_Block.h in Headers */,
+				AA985E921C5EBE2600B563EA /* NSArray+MK_Misc.h in Headers */,
+				AA985E931C5EBE2600B563EA /* NSMutableArray+MK_Misc.h in Headers */,
+				AA985E941C5EBE2600B563EA /* NSMutableArray+MK_Queue.h in Headers */,
+				AA985E951C5EBE2700B563EA /* NSMutableArray+MK_Stack.h in Headers */,
+				AA985E961C5EBE2700B563EA /* NSBundle+MK_Version.h in Headers */,
+				AA985E971C5EBE2700B563EA /* NSData+MK_Base64.h in Headers */,
+				AA985E981C5EBE2700B563EA /* NSDate+MK_Comparison.h in Headers */,
+				AA985E991C5EBE2700B563EA /* NSDate+MK_Components.h in Headers */,
+				AA985E9A1C5EBE2700B563EA /* NSDate+MK_Creation.h in Headers */,
+				AA985E9B1C5EBE2700B563EA /* NSDate+MK_Formatting.h in Headers */,
+				AA985E9C1C5EBE2700B563EA /* NSDate+MK_Manipulation.h in Headers */,
+				AA985E9D1C5EBE2700B563EA /* NSDictionary+MK_Block.h in Headers */,
+				AA985E9E1C5EBE2700B563EA /* NSDictionary+MK_Misc.h in Headers */,
+				AA985E9F1C5EBE2700B563EA /* NSMutableDictionary+MK_Misc.h in Headers */,
+				AA985EA01C5EBE2700B563EA /* NSNumber+MK_Comparison.h in Headers */,
+				AA985EA11C5EBE2800B563EA /* NSNumber+MK_Creation.h in Headers */,
+				AA985EA21C5EBE2800B563EA /* NSNumber+MK_Fraction.h in Headers */,
+				AA985EA31C5EBE2800B563EA /* NSNumber+MK_Manipulation.h in Headers */,
+				AA985EA41C5EBE2800B563EA /* NSNumber+MK_Negative.h in Headers */,
+				AA985EA51C5EBE2800B563EA /* NSNumber+MK_Precision.h in Headers */,
+				AA985EA61C5EBE2800B563EA /* NSObject+MK_AutoDescribe.h in Headers */,
+				AA985EA71C5EBE2800B563EA /* NSObject+MK_Misc.h in Headers */,
+				AA985EA81C5EBE2800B563EA /* NSSet+MK_Block.h in Headers */,
+				AA985EA91C5EBE2900B563EA /* NSString+MK_Base64.h in Headers */,
+				AA985EAA1C5EBE2900B563EA /* NSString+MK_Conversion.h in Headers */,
+				AA985EAB1C5EBE2900B563EA /* NSString+MK_Empty.h in Headers */,
+				AA985EAC1C5EBE2900B563EA /* NSString+MK_Misc.h in Headers */,
+				AA985EAD1C5EBE2900B563EA /* NSString+MK_UTF.h in Headers */,
+				AA985EAE1C5EBE2900B563EA /* NSString+MK_UUID.h in Headers */,
+				AA985EAF1C5EBE2A00B563EA /* NSString+MK_Validation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		907CCFEF184CE14A0070E0AC /* MKFoundationKit */ = {
@@ -652,6 +808,24 @@
 			productReference = 907CD00B184CE14A0070E0AC /* MKFoundationKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AA985E541C5EB90800B563EA /* MKFoundationKit-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA985E5C1C5EB90800B563EA /* Build configuration list for PBXNativeTarget "MKFoundationKit-iOS" */;
+			buildPhases = (
+				AA985E501C5EB90800B563EA /* Sources */,
+				AA985E511C5EB90800B563EA /* Frameworks */,
+				AA985E521C5EB90800B563EA /* Headers */,
+				AA985E531C5EB90800B563EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MKFoundationKit-iOS";
+			productName = "MKFoundationKit-iOS";
+			productReference = AA985E551C5EB90800B563EA /* MKFoundationKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -663,6 +837,9 @@
 				TargetAttributes = {
 					907CD00A184CE14A0070E0AC = {
 						TestTargetID = 907CCFEF184CE14A0070E0AC;
+					};
+					AA985E541C5EB90800B563EA = {
+						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
@@ -680,6 +857,7 @@
 			targets = (
 				907CCFEF184CE14A0070E0AC /* MKFoundationKit */,
 				907CD00A184CE14A0070E0AC /* MKFoundationKitTests */,
+				AA985E541C5EB90800B563EA /* MKFoundationKit-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -700,6 +878,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				907CD017184CE14A0070E0AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA985E531C5EB90800B563EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -845,6 +1030,44 @@
 				90AD9273185164E400C2CF19 /* NSNumber+MK_Manipulation_Tests.m in Sources */,
 				90AD9264185164E400C2CF19 /* NSMutableArray+MK_Misc_Tests.m in Sources */,
 				90AD927C185164E400C2CF19 /* NSString+MK_Misc_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA985E501C5EB90800B563EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA985E5D1C5EB93000B563EA /* NSArray+MK_Block.m in Sources */,
+				AA985E5E1C5EB93000B563EA /* NSArray+MK_Misc.m in Sources */,
+				AA985E5F1C5EB93000B563EA /* NSMutableArray+MK_Misc.m in Sources */,
+				AA985E601C5EB93000B563EA /* NSMutableArray+MK_Queue.m in Sources */,
+				AA985E611C5EB93000B563EA /* NSMutableArray+MK_Stack.m in Sources */,
+				AA985E621C5EB93000B563EA /* NSBundle+MK_Version.m in Sources */,
+				AA985E631C5EB93000B563EA /* NSData+MK_Base64.m in Sources */,
+				AA985E641C5EB93000B563EA /* NSDate+MK_Comparison.m in Sources */,
+				AA985E651C5EB93000B563EA /* NSDate+MK_Components.m in Sources */,
+				AA985E661C5EB93000B563EA /* NSDate+MK_Creation.m in Sources */,
+				AA985E671C5EB93000B563EA /* NSDate+MK_Formatting.m in Sources */,
+				AA985E681C5EB93000B563EA /* NSDate+MK_Manipulation.m in Sources */,
+				AA985E691C5EB93000B563EA /* NSDictionary+MK_Block.m in Sources */,
+				AA985E6A1C5EB93000B563EA /* NSDictionary+MK_Misc.m in Sources */,
+				AA985E6B1C5EB93000B563EA /* NSMutableDictionary+MK_Misc.m in Sources */,
+				AA985E6C1C5EB93000B563EA /* NSNumber+MK_Comparison.m in Sources */,
+				AA985E6D1C5EB93000B563EA /* NSNumber+MK_Creation.m in Sources */,
+				AA985E6E1C5EB93000B563EA /* NSNumber+MK_Fraction.m in Sources */,
+				AA985E6F1C5EB93000B563EA /* NSNumber+MK_Manipulation.m in Sources */,
+				AA985E701C5EB93000B563EA /* NSNumber+MK_Negative.m in Sources */,
+				AA985E711C5EB93000B563EA /* NSNumber+MK_Precision.m in Sources */,
+				AA985E721C5EB93000B563EA /* NSObject+MK_AutoDescribe.m in Sources */,
+				AA985E731C5EB93000B563EA /* NSObject+MK_Misc.m in Sources */,
+				AA985E741C5EB93000B563EA /* NSSet+MK_Block.m in Sources */,
+				AA985E751C5EB93000B563EA /* NSString+MK_Base64.m in Sources */,
+				AA985E761C5EB93000B563EA /* NSString+MK_Conversion.m in Sources */,
+				AA985E771C5EB93000B563EA /* NSString+MK_Empty.m in Sources */,
+				AA985E781C5EB93000B563EA /* NSString+MK_Misc.m in Sources */,
+				AA985E791C5EB93000B563EA /* NSString+MK_UTF.m in Sources */,
+				AA985E7A1C5EB93000B563EA /* NSString+MK_UUID.m in Sources */,
+				AA985E7B1C5EB93000B563EA /* NSString+MK_Validation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1020,6 +1243,64 @@
 			};
 			name = Release;
 		};
+		AA985E5A1C5EB90800B563EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "MKFoundationKit-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michalkonturek.MKFoundationKit;
+				PRODUCT_NAME = MKFoundationKit;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA985E5B1C5EB90800B563EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "MKFoundationKit-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michalkonturek.MKFoundationKit;
+				PRODUCT_NAME = MKFoundationKit;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1046,6 +1327,15 @@
 			buildConfigurations = (
 				907CD020184CE14A0070E0AC /* Debug */,
 				907CD021184CE14A0070E0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA985E5C1C5EB90800B563EA /* Build configuration list for PBXNativeTarget "MKFoundationKit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA985E5A1C5EB90800B563EA /* Debug */,
+				AA985E5B1C5EB90800B563EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
